@@ -1,5 +1,5 @@
-const defaultUsername = 'ghost';
-const defaultPassword = '1234';
+const defaultUsername = 'ugp';
+const defaultPassword = 'ugp';
 
 document.getElementById('loginForm').addEventListener('submit', function(e) {
     e.preventDefault();
@@ -17,3 +17,4 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
         errorMessage.textContent = 'Invalid username or password';
     }
 });
+
