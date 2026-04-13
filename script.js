@@ -1,5 +1,5 @@
-const defaultUsername = 'ugp';
-const defaultPassword = 'ugp';
+const defaultUsername = 'shan';
+const defaultPassword = 'shan';
 
 document.getElementById('loginForm').addEventListener('submit', function(e) {
     e.preventDefault();
